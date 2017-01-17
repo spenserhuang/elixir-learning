@@ -2,7 +2,7 @@
 
 # CASE
 
-# case allows us to compare a value against amny patterns until one fits the case
+# case allows us to compare a value against any patterns until one fits the case
 case {1, 2, 3} do
     {4, 5, 6} ->
         "This clause won't match"
