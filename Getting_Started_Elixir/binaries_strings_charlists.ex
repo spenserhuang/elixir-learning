@@ -1,0 +1,1 @@
+# This document showcases binaries, strings, and char lists
