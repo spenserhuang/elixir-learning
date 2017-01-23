@@ -1,5 +1,10 @@
+# count([char], char) :: non_neg_integer
+# Takes in a char_list and a char. Returns number of times the char occurs in the char_list
+# Pseudocode
+
+
 defmodule NucleotideCount do
-  @nucleotides [?A, ?C, ?G, ?T]
+  @nucleotides [?A , ?C, ?G, ?T]
 
   @doc """
   Counts individual nucleotides in a NucleotideCount strand.
@@ -31,3 +36,5 @@ defmodule NucleotideCount do
 
   end
 end
+
+NucleotideCount.count('CCCC', ?C)
